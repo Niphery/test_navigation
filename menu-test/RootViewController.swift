@@ -69,6 +69,10 @@ class RootViewControoler: UIViewController {
         addChildViewController(pagingMenuController)
         view.addSubview(pagingMenuController.view)
         pagingMenuController.didMove(toParentViewController: self)
+        
+        
+        // FIXME: Remove
+        self.title = "YAY"
     }
 }
 

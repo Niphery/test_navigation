@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SnapKit
+import PagingMenuController
 
 class vc2: UIViewController {
 
@@ -14,6 +16,16 @@ class vc2: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let textLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 30))
+        textLabel.center = view.center
+        textLabel.textAlignment = .center
+        textLabel.font = UIFont.systemFont(ofSize: 24)
+        textLabel.text = "View Controller 2"
+        view.addSubview(textLabel)
+        
+        textLabel.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+        }
     }
 
     override func didReceiveMemoryWarning() {

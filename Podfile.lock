@@ -1,0 +1,15 @@
+PODS:
+  - PagingMenuController (2.0.0)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - PagingMenuController
+  - SnapKit
+
+SPEC CHECKSUMS:
+  PagingMenuController: 60602bfb5421d6536c1e3097baeed601dec1d85b
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: 280643cf6cf4e9b95708a87471253daab5a3804c
+
+COCOAPODS: 1.1.1
